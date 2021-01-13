@@ -29,5 +29,5 @@ Type `CTRL + D` to quit the container.
 
 ## 5: Clean image :
 ```bash
-docker imagge rm -f ft_server debian:buster
+docker image rm -f ft_server debian:buster
 ```
