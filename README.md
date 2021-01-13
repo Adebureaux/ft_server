@@ -13,7 +13,7 @@ To build :
 docker build -t ft_server .
 ```
 
-To run (Basic):
+To run :
 ```bash
 docker run -ti -p --rm 80:80 ft_server
 ```
