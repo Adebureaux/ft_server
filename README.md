@@ -15,11 +15,7 @@ docker build -t ft_server .
 
 To run (Basic):
 ```bash
-docker run -ti -p 80:80 ft_server
-```
-To run with rm option to delete the container automatically after quitting the container
-```bash
-docker run -ti --rm -p 80:80 ft_server
+docker run -ti -p --rm 80:80 ft_server
 ```
 
 ## 3: Launch a web browser and type :
