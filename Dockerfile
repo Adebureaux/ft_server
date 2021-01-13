@@ -11,11 +11,14 @@ FROM debian:buster
 RUN apt update
 RUN apt upgrade
 
-#INSTALLL NGINX
-RUN apt install nginx
-RUN apt install mariadb-server
-RUN apt install wget
-RUN apt install php-fpm php-mysql
-RUN apt install openssl
+#INSTALL NGINX
+RUN apt install -y nginx
+RUN apt install -y mariadb-server
+RUN apt install -y wget
+RUN apt install -y php-fpm php-mysql
+RUN apt install -y openssl
 
-#https://www.hostinger.com/tutorials/how-to-install-wordpress-with-nginx-on-ubuntu/
+#INSTALL WORDPRESS WITH NGINX
+RUN mkdir -p /var/www/wordpress
+RUN chmod -R 777 /var/www/*
+
