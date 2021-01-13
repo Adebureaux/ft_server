@@ -9,10 +9,12 @@ systemctl stop nginx
 ```
 
 ## 2: Clone the project and launch :
+To build :
 ```bash
 docker build -t ft_server .
 ```
 
+To run :
 ```bash
 docker run -ti -p 443:443 -p 80:80 ft_server
 ```
