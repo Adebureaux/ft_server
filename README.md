@@ -15,7 +15,7 @@ docker build -t ft_server .
 
 To run :
 ```bash
-docker run -ti -p --rm 80:80 ft_server
+docker run -ti -p 443:443 -p 80:80 ft_server
 ```
 
 ## 3: Launch a web browser and type :
