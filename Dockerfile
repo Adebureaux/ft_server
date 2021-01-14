@@ -10,7 +10,7 @@ RUN apt install -y wget
 RUN apt install -y nginx
 COPY srcs/localhost /etc/nginx/sites-available/localhost
 RUN ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/
-RUN rm -rf /etc/nginx/sites-enabled/default
+RUN rm -f /etc/nginx/sites-enabled/default
 
 #INSTALL PHP
 RUN apt install -y php7.3 php-mysql php-fpm php-pdo php-gd php-cli php-mbstring
@@ -36,5 +36,5 @@ RUN openssl req -x509 -nodes -days 365 -subj "/C=FR/ST=France/L=Paris/O=42/OU=42
 #AUTHORIZATION
 RUN chown -R www-data:www-data *
 RUN chmod -R 755 /var/www/*
-COPY ./srcs/start.sh .
-CMD bash start.sh
+COPY ./srcs/init.sh .
+CMD bash inti.sh
