@@ -24,7 +24,7 @@ https://localhost
 ```
 
 ## 4: Quit
-Type `CTRL + D` to quit the container.
+Type exit to quit the container.
 
 ## 5: Clean image :
 ```bash
