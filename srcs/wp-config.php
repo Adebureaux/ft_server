@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
- define('AUTH_KEY',         'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('SECURE_AUTH_KEY',  'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('LOGGED_IN_KEY',    'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('NONCE_KEY',        'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('AUTH_SALT',        'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('SECURE_AUTH_SALT', 'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('LOGGED_IN_SALT',   'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
- define('NONCE_SALT',       'WHERE_IS_BRIAN_?_BRIAN_IS_IS_THE_KITCHEN');
+ define('AUTH_KEY',         '>[5F16d;QoBv.M+Pzk3f-)qh#@O29]Bj9cqt $4cw-V|j$|qKg $|4 L4U~l,]JU');
+ define('SECURE_AUTH_KEY',  '.m||i<WMQ>$S>!eugO/F%}5kLvnyV 0cUfq^;Reek4{I;jS?Kb&PH@,o-FDwZcVA');
+ define('LOGGED_IN_KEY',    'a4QcZ9X?0z*ie#J)`*v)5HCJsTec2nrwB|DxDrcX4J @c~MtXnZ_x-2V<+s4lf|+');
+ define('NONCE_KEY',        'D|wbH1aVF*SxJUPi<iVK#Fq~OW[{_5h-f=v1gyc=U1gOQUIO1];b&EKNME<CrPWK');
+ define('AUTH_SALT',        'Eq+e,8O)D)=vyv5t+DGPI^1wCE`u~ LLZ%90H-bt2T4&1Ng!#HZ)s-Ua<fJ-39=,');
+ define('SECURE_AUTH_SALT', 'elTXei*jU%] |gw~y^Xb-l/1>%z-v1~UqR4e`<Pi=`+ mQ|ErHDJyC1)u$wMyP.-');
+ define('LOGGED_IN_SALT',   'z-Vj~6^RmTTc#]=ng|[-(M+!b3|J3Ou)>QKCQ_m$+h}Kq9FCN&+t[w(g%}OkOpq&');
+ define('NONCE_SALT',       '{m:aVemDX_Q!@L$Wq;JbhR!=dwxJ/O6|F ui&(zH_Z^_m}[K,irO-jt[bI)*8:<X');
 /**#@-*/
 
 /**
