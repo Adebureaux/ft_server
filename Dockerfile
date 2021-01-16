@@ -36,7 +36,7 @@ RUN rm /tmp/latest.tar.gz
 
 # SETUP PhpMyAdmin
 RUN mkdir /var/www/phpmyadmin
-RUN cd /tmp && wget https://files.phpmyadmin.net/phpMyAdmin/4.9.0.1/phpMyAdmin-4.9.0.1-english.tar.gz  && tar xzf phpMyAdmin-4.9.0.1-english.tar.gz --strip-components=1 -C /var/www/phpmyadmin
+RUN cd /tmp && wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-english.tar.gz  && tar xzf phpMyAdmin-5.0.1-english.tar.gz --strip-components=1 -C /var/www/phpmyadmin
 
 #SET SSL
 RUN mkdir /etc/nginx/ssl
