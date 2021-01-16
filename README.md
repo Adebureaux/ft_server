@@ -18,18 +18,18 @@ To run :
 sudo docker run -ti -p 443:443 -p 80:80 ft_server
 ```
 
-## 3: Launch a web browser and type :
+## 3: Launch a web browser :
 Work on Mozilla or Safari :
 ```bash
 https://localhost
 ```
 
-To switch auto-index to ON or OFF
+To switch auto-index to ON or OFF :
 ```bash
 bash auto-index.sh
 ```
 
-To log into PhpMyAdmin
+To log into PhpMyAdmin :
 ```bash
 login : admin
 password : admin
