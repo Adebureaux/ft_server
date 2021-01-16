@@ -33,7 +33,7 @@ RUN cd /tmp && wget https://wordpress.org/latest.tar.gz && tar xzvf latest.tar.g
 RUN mv /tmp/wordpress/* /var/www/wordpress/
 RUN chown -R www-data:www-data /var/www/*
 
-# SETUP PhpMyAdmin
+#SETUP PHPMYADMIN
 RUN mkdir /var/www/phpmyadmin
 RUN cd /tmp && wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-english.tar.gz  && tar xzf phpMyAdmin-5.0.1-english.tar.gz
 RUN mv /tmp/phpMyAdmin-5.0.1-english/* /var/www/phpmyadmin/
