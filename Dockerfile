@@ -32,15 +32,15 @@ COPY srcs/wp-config.php /var/www/wordpress/
 RUN cd /tmp && wget https://wordpress.org/latest.tar.gz && tar xzvf latest.tar.gz
 RUN mv /tmp/wordpress/* /var/www/wordpress/
 RUN chown -R www-data:www-data /var/www/*
-RUN rm /tmp/latest.tar.gz
 
 # SETUP PhpMyAdmin
 RUN mkdir /var/www/phpmyadmin
-RUN cd /tmp && wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-english.tar.gz  && tar xzf phpMyAdmin-5.0.1-english.tar.gz --strip-components=1 -C /var/www/phpmyadmin
+RUN cd /tmp && wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-english.tar.gz  && tar xzf phpMyAdmin-5.0.1-english.tar.gz
+RUN mv /tmp/phpMyAdmin-5.0.1-english/* /var/www/phpmyadmin/
 
 #SET SSL
 RUN mkdir /etc/nginx/ssl
-RUN openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout /etc/nginx/ssl/localhost_key.pem -out /etc/nginx/ssl/localhost.pem -days 365 -subj "/C=FR/ST=FRANCE/L=PARIS/O=42/OU=42PARIS/CN=adeburea"
+RUN openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout /etc/nginx/ssl/key.pem -out /etc/nginx/ssl/local.pem -days 365 -subj "/C=FR/ST=FRANCE/L=PARIS/O=42/OU=42PARIS/CN=adeburea"
 
 #START
 COPY srcs/start.sh ./
