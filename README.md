@@ -24,12 +24,12 @@ Work on Mozilla or Safari :
 https://localhost
 ```
 
-#To switch auto-index to ON or OFF
+To switch auto-index to ON or OFF
 ```bash
 bash auto-index.sh
 ```
 
-#To log into PhpMyAdmin
+To log into PhpMyAdmin
 ```bash
 login : admin
 password : admin
