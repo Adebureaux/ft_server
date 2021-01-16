@@ -18,11 +18,11 @@ RUN chmod -R 755 /var/www/*
 COPY srcs/default.conf /etc/nginx/sites-available/wordpress
 RUN ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
 
-#AUTO-INDEX
+#IMPORT AUTO-INDEX SCRIPT
 COPY srcs/auto-index.sh ./
 RUN chmod +x auto-index.sh
 
-#SET MYSQL
+#SETUP MYSQL
 COPY srcs/wordpress.sql /tmp/
 COPY srcs/mysql.sh /tmp/
 RUN bash /tmp/mysql.sh
