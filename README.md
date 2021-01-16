@@ -19,6 +19,7 @@ sudo docker run -ti -p 443:443 -p 80:80 ft_server
 ```
 
 ## 3: Launch a web browser and type :
+Work on Mozilla or Safari :
 ```bash
 https://localhost
 ```
