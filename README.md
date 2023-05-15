@@ -1,3 +1,3 @@
 # ft_server
 
-This topic is intended to introduce you to system administration. It will make you aware of the importance of using scripts to automate your tasks. For that, you will discover the "docker" technology and use it to install a complete web server. This server will run multiples services: Wordpress, phpMyAdmin, and a SQL database.
+The purpose of this subject matter is to provide an introduction to system administration by highlighting the significance of employing scripts for task automation. Through this, you will gain knowledge about the "docker" technology and utilize it to set up a comprehensive web server. The said server will be capable of running multiple services, including Wordpress, phpMyAdmin, and an SQL database.
